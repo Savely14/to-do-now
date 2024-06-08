@@ -3,9 +3,112 @@
 }
 
 body {
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2C2C2C;
 }
 
 .container {
-
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid #faf7f7; */
+    background-color: #2C2C2C;
+    width: 50%;
+    margin-top: 5%;
 }
+
+header {
+    width: 50%;
+    margin-bottom: 5%;
+    background-color: #2C2C2C;
+}
+
+h1 {
+    width: 80%;
+    color: #faf7f7;
+    font-family: Racing Sans One;
+    border-bottom: 1px solid #faf8f8;
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+    margin-left: 10%;
+    text-align: center; 
+}
+
+h1 span { 
+    background:#2C2C2C; 
+    padding:0 10px; 
+}
+
+.notePencilLine {
+    margin-top: 2.5em;
+    border-bottom: 1px solid #faf8f8;
+}
+
+.notePencil { 
+    text-align: center;
+    margin-top: -0.75em;
+}
+
+.notePencil svg {
+    width: 15%;
+    background-color: #2C2C2C;
+}
+
+.taskSection {
+    background-color: #2C2C2C;
+    width: 50%;
+}
+
+.addTask {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+
+#addTaskInput {
+    border-radius: 10px 0px 0px 10px;
+    border: none;
+    background-color: #D9D9D9;
+    width: 48%;
+}
+
+#addTaskButton {
+    font-family: Racing Sans One;
+    border: none;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: -2rem;
+    background-color: #4F4F4F;
+    color: #faf7f7;
+}
+
+.addTaskBottomBorder {
+    border-bottom: 1px solid #faf8f8;
+    margin-bottom: 13%;
+}
+
+
+.tasks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+    
+}
+
+.tasksTextField {
+    background-color: #222222;
+    border: none;
+    width: 48%;
+}
+
+.tasksTextField placeholder {
+    color: #f3eeee;
+}
+
+.tasksButton {
+    background-color: #999999;
+    
+}
+
