@@ -2,6 +2,8 @@
     box-sizing: border-box;
 }
 
+/* border: 1px solid #faf7f7; */
+
 body {
     display: flex;
     flex-direction: column;
@@ -12,7 +14,6 @@ body {
 .container {
     display: flex;
     justify-content: center;
-    /* border: 1px solid #faf7f7; */
     background-color: #2C2C2C;
     width: 50%;
     margin-top: 5%;
@@ -47,7 +48,7 @@ h1 span {
 
 .notePencil { 
     text-align: center;
-    margin-top: -0.75em;
+    margin-top: -1em;
 }
 
 .notePencil svg {
@@ -93,8 +94,7 @@ h1 span {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin-bottom: 2rem;
-    
+    margin-bottom: 1.4rem;
 }
 
 .tasksTextField {
@@ -103,12 +103,22 @@ h1 span {
     width: 48%;
 }
 
-.tasksTextField placeholder {
-    color: #f3eeee;
+input {
+    color: #eec1c1;
 }
 
 .tasksButton {
     background-color: #999999;
-    
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+    width: 2.5%;
+    /* margin-left: 24rem;
+    margin-top: -1rem; */
 }
+
+.fa-trash-can {
+    
+    margin: -2rem;
+}
+
 
